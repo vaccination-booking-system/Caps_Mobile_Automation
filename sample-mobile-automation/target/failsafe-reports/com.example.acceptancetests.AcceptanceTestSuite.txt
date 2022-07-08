@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.example.acceptancetests.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 371.692 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
+Login.Login #1  Time elapsed: 48.875 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="Booking Vaksin"] (tried for 5 second(s) with 1200 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INGGRIT', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\ponda\Documents\Ca..., appPackage: com.example.evizy, automationName: UIAutomator2, databaseEnabled: false, desired: {app: C:\Users\ponda\Documents\Ca..., automationName: UIAutomator2, platVersion: 11, platformName: android}, deviceApiLevel: 30, deviceManufacturer: OPPO, deviceModel: CPH1937, deviceName: b62c4e88, deviceScreenDensity: 272, deviceScreenSize: 720x1600, deviceUDID: b62c4e88, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 1.7, platVersion: 11, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, viewportRect: {height: 1480, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: bd17bf8e-21a8-49f6-9e27-361afea7b2df
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="Booking Vaksin"]}
+
+Login.Login #8  Time elapsed: 42.624 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="Masukkan password anda"] (tried for 5 second(s) with 1200 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INGGRIT', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\ponda\Documents\Ca..., appPackage: com.example.evizy, automationName: UIAutomator2, databaseEnabled: false, desired: {app: C:\Users\ponda\Documents\Ca..., automationName: UIAutomator2, platVersion: 11, platformName: android}, deviceApiLevel: 30, deviceManufacturer: OPPO, deviceModel: CPH1937, deviceName: b62c4e88, deviceScreenDensity: 272, deviceScreenSize: 720x1600, deviceUDID: b62c4e88, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 1.7, platVersion: 11, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, viewportRect: {height: 1480, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6b928d31-4310-4875-9250-b44c751f592f
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="Masukkan password anda"]}
+

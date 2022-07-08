@@ -1,0 +1,4 @@
+com\example\app\pages\citizen\dashboard_citizen.class
+com\example\app\drivers\AndroidDriverInit.class
+com\example\app\pages\citizen\login_citizen.class
+com\example\app\base\basePageObject.class
